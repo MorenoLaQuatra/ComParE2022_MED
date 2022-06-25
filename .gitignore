@@ -4,3 +4,7 @@ checkpoints_3/*
 checkpoints_4/*
 temp_augmentation/*
 results*
+3L_600ms/data/*
+3L_600ms/outputs/*
+3L_600ms/postprocess*
+3L_600ms/models/ALM/*
