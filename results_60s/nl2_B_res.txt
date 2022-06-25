@@ -1,0 +1,59 @@
+Device: cuda
+TH: 0.1
+debug [[  1. 736.]
+ [  0.   0.]] [0.01408451]
+
+macro F-score: 0.25
+TH: 0.2
+debug [[ 0. 52.]
+ [ 0.  0.]] [0.]
+
+macro F-score: nan
+TH: 0.30000000000000004
+debug [[ 0. 31.]
+ [ 0.  0.]] [0.]
+
+macro F-score: nan
+TH: 0.4
+debug [[0. 9.]
+ [0. 0.]] [0.]
+
+macro F-score: nan
+TH: 0.5
+debug [[0. 2.]
+ [0. 0.]] [0.]
+
+macro F-score: nan
+TH: 0.6
+debug [[0. 1.]
+ [0. 0.]] [0.]
+
+macro F-score: nan
+TH: 0.7000000000000001
+debug [[0. 3.]
+ [0. 0.]] [0.]
+
+macro F-score: nan
+TH: 0.8
+debug [[0. 4.]
+ [0. 0.]] [0.]
+
+macro F-score: nan
+TH: 0.9
+debug [[0. 0.]
+ [0. 0.]] [0.]
+
+macro F-score: nan
+TH: 1.0
+debug [[0. 0.]
+ [0. 0.]] [0.]
+
+macro F-score: nan
+
+PSD-Score: 0.00000
+[  0.           1.23366803   2.46733607   3.7010041    4.93467214
+  11.10301231  38.24370906  64.15073778 907.97967326]
+[0.         0.         0.         0.         0.         0.
+ 0.         0.         0.01408451]
+ROC 5.942457292099534
+ROC norm 0.00654470300061237
