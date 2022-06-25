@@ -7,9 +7,9 @@ Additional information will be provided upon paper acceptance.
 ```console
 python train.py --train_csv_path df/train.csv \
                 --dev_csv_path df/dev.csv \
-                --root_train_folder /data1/mlaquatra/compare/mosquitos/data/train/ \
-                --root_dev_folder /data1/mlaquatra/compare/mosquitos/data/dev/ab/ \
-                --external_noise_folder /data1/mlaquatra/compare/mosquitos/noise_samples/ \
+                --root_train_folder /data/train/ \
+                --root_dev_folder data/dev/ab/ \
+                --external_noise_folder data/noise_samples/ \
                 --model_name_or_path microsoft/wavlm-base-plus-sd \
                 --output_dir checkpoints/ \
                 --log_dir logs/ 
@@ -27,5 +27,5 @@ python eval_checkpoint.py \
         --num_labels 3 \
         --pred_file_prefix nl3_ \
         --plot_filename nl3_roc.png \
-        --dev_folder ../../data/dev/a/
+        --dev_folder data/dev/a/
 ```
