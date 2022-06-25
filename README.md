@@ -1,3 +1,7 @@
+This repository contains the code for the paper *How much attention should we pay to mosquitoes?* submitted for the ComParE 2022 Mosquito Sub-Challenge.
+
+Additional information will be provided upon paper acceptance.
+
 ### Model training:
 
 ```console
