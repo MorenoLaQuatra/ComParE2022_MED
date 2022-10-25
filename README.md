@@ -4,6 +4,10 @@ This repository contains the code for the paper *How much attention should we pa
 
 Mosquitoes are a major global health problem. They are responsible for the transmission of diseases and can have a large impact on local economies. Monitoring mosquitoes is therefore helpful in preventing the outbreak of mosquito-borne diseases. In this paper, we propose a novel data-driven approach that leverages Transformer-based models for the identification of mosquitoes in audio recordings. The task aims at detecting the time intervals corresponding to the acoustic mosquito events in an audio signal. We formulate the problem as a sequence tagging task and train a Transformer-based model using a real-world dataset collecting mosquito recordings. By leveraging the sequential nature of mosquito recordings, we formulate the training objective so that the input recordings do not require fine-grained annotations. We show that our approach is able to outperform baseline methods using standard evaluation metrics, albeit suffering from unexpectedly high false negatives detection rates. In view of the achieved results, we propose future directions for the design of more effective mosquito detection models. More details can be found in the [paper](https://dl.acm.org/doi/abs/10.1145/3503161.3551594).
 
+<p align="center">
+  <img src="Mosquitoes.jpg" />
+</p>
+
 ## Model training:
 
 ```shell
